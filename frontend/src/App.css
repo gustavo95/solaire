@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'LatoRegular';
+  src: local("LatoRegular"), url("./assets/fonts/Lato/Lato-Regular.ttf") format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "LatoRegular", sans-serif;
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+}
